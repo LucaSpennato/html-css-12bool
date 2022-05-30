@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common containers */
+.container-fluid{
+    width: 100%;
+    max-width: 100%;
+}
+
+.container-1070{
+    width: 1070px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* flex rules */
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.row-reverse-wrap-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.column-reverse-wrap-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+}
+
+/* flex-justify */
+.flex-justify-center{
+    justify-content: center;
+}
+
+.flex-justify-between{
+    justify-content: space-between;
+}
+
+.flex-justify-around{
+    justify-content: space-around;
+}
+
+.flex-justify-evenly{
+    justify-content: space-evenly;
+}
+
+.flex-justify-baseline{
+    justify-content: baseline;
+}
+
+/* flex align content */
+.flex-align-content-center{
+    align-content: center;
+}
+
+.flex-align-content-start{
+    align-content:flex-start;
+}
+
+.flex-align-content-end{
+    align-content:flex-end;
+}
+
+.flex-align-content-stretch{
+    align-content: stretch;
+}
+
+.flex-align-content-space-around{
+    align-content: space-around;
+}
+
+.flex-align-content-space-between{
+    align-content:space-between;
+}
+
+/* flex align items */
+.flex-align-items-center{
+    align-items: center;
+}
+
+.flex-align-items-start{
+    align-items: flex-start;
+}
+
+.flex-align-items-end{
+    align-items: flex-end;
+}
+
+.flex-align-items-stretch{
+    align-items: stretch;
+}
+
+.flex-align-items-baseline{
+    align-items: baseline;
+}
+
+/* flex-align self */
+.flex-align-self{
+    align-self: center;
+}
+
+.flex-align-start{
+    align-self: flex-start;
+}
+
+.flex-align-end{
+    align-self: flex-end;
+}
+
+.flex-align-baseline{
+    align-self: baseline;
+}
+
+.flex-align-stretch{
+    align-self: stretch;
+}
+
+.flex-align-auto{
+    align-self: auto;
+}
+
+/* columns 12 */
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+
+.col{
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+
+@media all and (min-width: 768px){
+
+}
+
+@media all and (min-width: 992px){
+
+}
+
+@media all and (min-width: 1200px){
+
+}
