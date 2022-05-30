@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color:aqua;
+    height: 200px;
+}
+
+.row{
+    border: 1px solid white;
+}
+
+[class*="col-"]{
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+}
+
+.col-6.row>[class*="col-"]{
+    background-color: aquamarine;
+}
