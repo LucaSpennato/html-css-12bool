@@ -425,7 +425,7 @@
 }
 
 .col-offset-left-10 {
-    margin-left: calc((100% / 12) * 1);
+    margin-left: calc((100% / 12) * 10);
 }
 
 .col-offset-left-11 {
@@ -832,7 +832,7 @@
     }
 
     .col-md-offset-left-10 {
-        margin-left: calc((100% / 12) * 1);
+        margin-left: calc((100% / 12) * 10);
     }
 
     .col-md-offset-left-11 {
@@ -1240,7 +1240,7 @@
     }
 
     .col-lg-offset-left-10 {
-        margin-left: calc((100% / 12) * 1);
+        margin-left: calc((100% / 12) * 10);
     }
 
     .col-lg-offset-left-11 {
@@ -1648,7 +1648,7 @@
     }
 
     .col-xl-offset-left-10 {
-        margin-left: calc((100% / 12) * 1);
+        margin-left: calc((100% / 12) * 10);
     }
 
     .col-xl-offset-left-11 {

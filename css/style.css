@@ -1,8 +1,3 @@
-.container-fluid{
-    background-color:aqua;
-    height: 200px;
-}
-
 .row{
     border: 1px solid white;
 }
@@ -15,4 +10,9 @@
 
 .col-6.row>[class*="col-"]{
     background-color: aquamarine;
+}
+
+.row:nth-child(3)>[class*="col-"],
+.row:nth-child(5)>[class*="col-"]{
+    height: 40px;
 }
