@@ -16,3 +16,24 @@
 .row:nth-child(5)>[class*="col-"]{
     height: 40px;
 }
+
+@media all and (min-width: 768px){
+    [class*="col-md-"]{
+        background-color: red;
+    }
+}
+
+@media all and (min-width: 992px){
+    [class*="col-lg-"]{
+        margin-left: 0;
+        background-color: yellow;
+    }
+}
+
+@media all and (min-width: 1200px){
+    [class*="col-xl-"]{
+        background-color:blueviolet;
+    }
+}
+
+
