@@ -1,0 +1,29 @@
+[class*="col-"]{
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.nested .col-8>[class*="col-"],
+.nested .col-4>[class*="col-"]{
+    background-color: chartreuse;
+    border: 1px solid blue;
+    height: 40px;
+}
+
+.alignment1 [class*="col-"]{
+    height: 50px;
+    color: white;
+}
+
+.alignment2{
+    height: 200px;
+}
+
+.alignment2 .col-6{
+    background-color: white;
+    color: white;
+}
+
+.bg-col-fix{
+    background-color: aquamarine;
+}
